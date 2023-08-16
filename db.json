@@ -1,0 +1,250 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event_name": "Easter Sunday",
+      "start_date": "2023-07-15",
+      "event_time": "10:00",
+      "capacity": 50,
+      "taken": 35,
+      "waiting_list": 5,
+      "taken_wl": 15,
+      "actions": "View Details"
+    },
+    {
+      "id": 2,
+      "event_name": "Christmas Eve",
+      "start_date": "2023-07-16",
+      "event_time": "14:30",
+      "capacity": 20,
+      "taken": 20,
+      "waiting_list": 10,
+      "taken_wl": 10,
+      "actions": "Register"
+    },
+    {
+      "id": 3,
+      "event_name": "Good Friday",
+      "start_date": "2023-07-18",
+      "event_time": "09:15",
+      "capacity": 40,
+      "taken": 30,
+      "waiting_list": 15,
+      "taken_wl": 5,
+      "actions": "Register"
+    },
+    {
+      "id": 4,
+      "event_name": "Ash Wednesday",
+      "start_date": "2023-07-20",
+      "event_time": "16:00",
+      "capacity": 25,
+      "taken": 25,
+      "waiting_list": 0,
+      "taken_wl": 0,
+      "actions": "View Details"
+    },
+    {
+      "id": 5,
+      "event_name": "Palm Sunday",
+      "start_date": "2023-07-22",
+      "event_time": "11:30",
+      "capacity": 50,
+      "taken": 40,
+      "waiting_list": 8,
+      "taken_wl": 2,
+      "actions": "Register"
+    },
+    {
+      "id": 6,
+      "event_name": "Easter Vigil",
+      "start_date": "2023-07-25",
+      "event_time": "13:45",
+      "capacity": 30,
+      "taken": 30,
+      "waiting_list": 10,
+      "taken_wl": 5,
+      "actions": "View Details"
+    },
+    {
+      "id": 7,
+      "event_name": "Pentecost Sunday",
+      "start_date": "2023-07-27",
+      "event_time": "10:30",
+      "capacity": 15,
+      "taken": 15,
+      "waiting_list": 3,
+      "taken_wl": 2,
+      "actions": "Register"
+    },
+    {
+      "id": 8,
+      "event_name": "Epiphany",
+      "start_date": "2023-07-29",
+      "event_time": "15:15",
+      "capacity": 10,
+      "taken": 8,
+      "waiting_list": 2,
+      "taken_wl": 2,
+      "actions": "Register"
+    },
+    {
+      "id": 9,
+      "event_name": "Advent Sunday",
+      "start_date": "2023-07-31",
+      "event_time": "09:00",
+      "capacity": 40,
+      "taken": 30,
+      "waiting_list": 20,
+      "taken_wl": 10,
+      "actions": "View Details"
+    },
+    {
+      "id": 10,
+      "event_name": "Feast of the Ascension",
+      "start_date": "2023-08-02",
+      "event_time": "14:00",
+      "capacity": 50,
+      "taken": 50,
+      "waiting_list": 5,
+      "taken_wl": 0,
+      "actions": "Register"
+    }
+  ],
+
+  "reservations": [
+    {
+      "id": 1,
+      "group_name": "Group A",
+      "purpose": "Meeting",
+      "arrival_date": "2023-07-04",
+      "arrival_time": "09:00",
+      "status": "In progress"
+    },
+    {
+      "id": 2,
+      "group_name": "Group B",
+      "purpose": "Presentation",
+      "arrival_date": "2023-07-05",
+      "arrival_time": "14:30",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "group_name": "Group C",
+      "purpose": "Training",
+      "arrival_date": "2023-07-06",
+      "arrival_time": "10:15",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "group_name": "Group D",
+      "purpose": "Conference",
+      "arrival_date": "2023-07-07",
+      "arrival_time": "11:45",
+      "status": "Canceled"
+    },
+    {
+      "id": 5,
+      "group_name": "Group E",
+      "purpose": "Meeting",
+      "arrival_date": "2023-07-08",
+      "arrival_time": "16:30",
+      "status": "In progress"
+    },
+    {
+      "id": 6,
+      "group_name": "Group F",
+      "purpose": "Workshop",
+      "arrival_date": "2023-07-09",
+      "arrival_time": "13:00",
+      "status": "Pending"
+    },
+    {
+      "id": 7,
+      "group_name": "Group G",
+      "purpose": "Seminar",
+      "arrival_date": "2023-07-10",
+      "arrival_time": "10:45",
+      "status": "Completed"
+    },
+    {
+      "id": 8,
+      "group_name": "Group H",
+      "purpose": "Presentation",
+      "arrival_date": "2023-07-11",
+      "arrival_time": "11:00",
+      "status": "Canceled"
+    },
+    {
+      "id": 9,
+      "group_name": "Group I",
+      "purpose": "Conference",
+      "arrival_date": "2023-07-12",
+      "arrival_time": "15:15",
+      "status": "In progress"
+    },
+    {
+      "id": 10,
+      "group_name": "Group J",
+      "purpose": "Training",
+      "arrival_date": "2023-07-13",
+      "arrival_time": "09:30",
+      "status": "Pending"
+    }
+  ],
+
+  "users": [
+    {
+      "userName": "Alice Johnson",
+      "email": "alice@example.com",
+      "userType": "Administrator"
+    },
+    {
+      "userName": "Bob Smith",
+      "email": "bob@example.com",
+      "userType": "staff"
+    },
+    {
+      "userName": "Charlie Brown",
+      "email": "charlie@example.com",
+      "userType": "guest"
+    },
+    {
+      "userName": "David Lee",
+      "email": "david@example.com",
+      "userType": "Administrator"
+    },
+    {
+      "userName": "Eve Davis",
+      "email": "eve@example.com",
+      "userType": "staff"
+    },
+    {
+      "userName": "Frank Williams",
+      "email": "frank@example.com",
+      "userType": "guest"
+    },
+    {
+      "userName": "Grace Anderson",
+      "email": "grace@example.com",
+      "userType": "Administrator"
+    },
+    {
+      "userName": "Hannah Taylor",
+      "email": "hannah@example.com",
+      "userType": "staff"
+    },
+    {
+      "userName": "Isaac Martinez",
+      "email": "isaac@example.com",
+      "userType": "guest"
+    },
+    {
+      "userName": "Jack Johnson",
+      "email": "jack@example.com",
+      "userType": "Administrator"
+    }
+  ]
+}
