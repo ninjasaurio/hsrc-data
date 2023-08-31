@@ -200,7 +200,7 @@
       "id" : 1,
       "userName": "Alice Johnson",
       "email": "alice@example.com",
-      "userType": "Administrator",
+      "userType": "administrator",
       "active": true
     },
     {
@@ -221,7 +221,7 @@
       "id" : 4,
       "userName": "David Lee",
       "email": "david@example.com",
-      "userType": "Administrator",
+      "userType": "administrator",
       "active": true
     },
     {
@@ -242,7 +242,7 @@
       "id" : 7,
       "userName": "Grace Anderson",
       "email": "grace@example.com",
-      "userType": "Administrator",
+      "userType": "administrator",
       "active": true
     },
     {
@@ -250,20 +250,20 @@
       "userName": "Hannah Taylor",
       "email": "hannah@example.com",
       "userType": "staff",
-      "active": true
+      "active": false
     },
     {
       "id" : 9,
       "userName": "Isaac Martinez",
       "email": "isaac@example.com",
       "userType": "guest",
-      "active": true
+      "active": false
     },
     {
       "id" : 10,
       "userName": "Jack Johnson",
       "email": "jack@example.com",
-      "userType": "Administrator",
+      "userType": "administrator",
       "active": true
     }
   ]
