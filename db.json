@@ -200,61 +200,71 @@
       "id" : 1,
       "userName": "Alice Johnson",
       "email": "alice@example.com",
-      "userType": "Administrator"
+      "userType": "Administrator",
+      "active": true
     },
     {
       "id" : 2,
       "userName": "Bob Smith",
       "email": "bob@example.com",
-      "userType": "staff"
+      "userType": "staff",
+      "active": true
     },
     {
       "id" : 3,
       "userName": "Charlie Brown",
       "email": "charlie@example.com",
-      "userType": "guest"
+      "userType": "guest",
+      "active": true
     },
     {
       "id" : 4,
       "userName": "David Lee",
       "email": "david@example.com",
-      "userType": "Administrator"
+      "userType": "Administrator",
+      "active": true
     },
     {
       "id" : 5,
       "userName": "Eve Davis",
       "email": "eve@example.com",
-      "userType": "staff"
+      "userType": "staff",
+      "active": true
     },
     {
       "id" : 6,
       "userName": "Frank Williams",
       "email": "frank@example.com",
-      "userType": "guest"
+      "userType": "guest",
+      "active": true
     },
     {
       "id" : 7,
       "userName": "Grace Anderson",
       "email": "grace@example.com",
-      "userType": "Administrator"
+      "userType": "Administrator",
+      "active": true
     },
     {
       "id" : 8,
       "userName": "Hannah Taylor",
       "email": "hannah@example.com",
-      "userType": "staff"
+      "userType": "staff",
+      "active": true
     },
     {
       "id" : 9,
       "userName": "Isaac Martinez",
       "email": "isaac@example.com",
-      "userType": "guest"
+      "userType": "guest",
+      "active": true
     },
     {
       "id" : 10,
       "userName": "Jack Johnson",
       "email": "jack@example.com",
-      "userType": "Administrator"
+      "userType": "Administrator",
+      "active": true
     }
   ]
 }
