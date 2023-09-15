@@ -197,74 +197,106 @@
 
   "users": [
     {
-      "id" : 1,
+      "id": 1,
       "userName": "Alice Johnson",
       "email": "alice@example.com",
       "userType": "administrator",
       "active": true
     },
     {
-      "id" : 2,
+      "id": 2,
       "userName": "Bob Smith",
       "email": "bob@example.com",
       "userType": "staff",
       "active": true
     },
     {
-      "id" : 3,
+      "id": 3,
       "userName": "Charlie Brown",
       "email": "charlie@example.com",
       "userType": "guest",
       "active": true
     },
     {
-      "id" : 4,
+      "id": 4,
       "userName": "David Lee",
       "email": "david@example.com",
       "userType": "administrator",
       "active": true
     },
     {
-      "id" : 5,
+      "id": 5,
       "userName": "Eve Davis",
       "email": "eve@example.com",
       "userType": "staff",
       "active": true
     },
     {
-      "id" : 6,
+      "id": 6,
       "userName": "Frank Williams",
       "email": "frank@example.com",
       "userType": "guest",
       "active": true
     },
     {
-      "id" : 7,
+      "id": 7,
       "userName": "Grace Anderson",
       "email": "grace@example.com",
       "userType": "administrator",
       "active": true
     },
     {
-      "id" : 8,
+      "id": 8,
       "userName": "Hannah Taylor",
       "email": "hannah@example.com",
       "userType": "staff",
       "active": false
     },
     {
-      "id" : 9,
+      "id": 9,
       "userName": "Isaac Martinez",
       "email": "isaac@example.com",
       "userType": "guest",
       "active": false
     },
     {
-      "id" : 10,
+      "id": 10,
       "userName": "Jack Johnson",
       "email": "jack@example.com",
       "userType": "administrator",
       "active": true
+    }
+  ],
+  "due": [
+    {
+      "group_name": "Easter day",
+      "due_date": "2023-09-15",
+      "initial_deposit": 300
+    },
+    {
+      "group_name": "Diwali day",
+      "due_date": "2023-10-10",
+      "initial_deposit": 500
+    },
+    {
+      "group_name": "Hanukkah day",
+      "due_date": "2023-11-05",
+      "initial_deposit": 250
+    },
+    {
+      "group_name": "Ramadan day",
+      "due_date": "2023-09-25",
+      "initial_deposit": 400
+    },
+    {
+      "group_name": "Christmas day",
+      "due_date": "2023-10-20",
+      "initial_deposit": 600
+    },
+    {
+      "group_name": "Vesak day",
+      "due_date": "2023-11-15",
+      "initial_deposit": 350
     }
   ]
 }
